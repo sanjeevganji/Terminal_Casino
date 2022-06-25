@@ -145,7 +145,7 @@ void Home(int &funds, string name)
             break;
         case 5:
             return;
-            break;
+            
 
         default:
             cout << "!!!PLEASE ENTYER A VALID INPUT!!!" << endl
