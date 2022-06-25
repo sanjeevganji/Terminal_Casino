@@ -101,14 +101,17 @@ public:
     {
 
         int x = 1;
-
+        int i = 0;
         while (x != 0)
         {
-            bal = slots(bal, x);
+            if (i)
+                bal = slots(bal, x);
 
             cout << "\n your available balance: $" << bal;
-
-            cout << "\nplay again?";
+            if (i == 0)
+                cout << "\nplay?";
+            if (i)
+                cout << "\nplay again?";
             cout << endl
                  << "0. No" << endl
                  << "1. Yes" << endl;
@@ -116,6 +119,7 @@ public:
                  << "input a number:";
             cin >> x;
             cout << endl;
+            i++;
         }
         cout << "-------------------------------------------------------" << endl
              << "thank you for playing!" << endl
