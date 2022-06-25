@@ -105,6 +105,20 @@ YOU EXITED WITH $" " BALANCE.
 -------------------------------------------------------
 
 
+-------------------------------------------------------
+you have chosen 1.SLOTS
+
+YOUR AVAILABLE BALANCE: $"  "
+
+EACH SPIN COSTS 100$
+
+1. SPIN!!!
+
+2. go back to main menu
+
+<CHOOSE AN OPTION BY ENTERING A VALID NUMBER>
+-------------------------------------------------------
+
 
 
 
