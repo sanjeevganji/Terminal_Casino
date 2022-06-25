@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <string>
 #include <ctime>
+#include <windows.h>
 using namespace std;
 void Play_game(int &funds, string name);
 void Home(int &funds, string name);
@@ -20,16 +21,23 @@ int main()
 void Play_Game(int &funds, string name)
 {
     int flow;
+    Sleep(300);
     cout << "you have choosen option 1. Play Game" << endl
          << endl;
+         
+    Sleep(300);
     cout << "CHOOSE A GAME TO PLAY:" << endl
          << endl;
+    Sleep(300);
     cout << "1. SLOTS" << endl
          << endl;
+    Sleep(300);
     cout << "2. GUESSING GAME" << endl
          << endl;
+    Sleep(300);
     cout << "3. TICK TOCK CLOCK" << endl
          << endl;
+    Sleep(300);
     cout << "4. go back to main menu" << endl
          << endl;
 
@@ -59,14 +67,19 @@ void Play_Game(int &funds, string name)
 int Manage_Funds(int &funds, string name)
 {
     int flow;
+    Sleep(300);
     cout << "you have choosen option 2. Manage Funds" << endl
          << endl;
+    Sleep(300);
     cout << "YOUR AVAILABLE BALANCE: " << funds << endl
          << endl;
+    Sleep(300);
     cout << "1. ADD FUNDS " << endl
          << endl;
+    Sleep(300);
     cout << "2. WITHDRAW FUNDS " << endl
          << endl;
+    Sleep(300);
     cout << "3. go back to main menu " << endl
          << endl;
     while (1)
@@ -93,35 +106,35 @@ void Home(int &funds, string name)
 {
 
     int flow;
-    cout << "------------------------------------------------------- " << endl;
-    cout << "|                                                     |" << endl;
-    cout << "|       \\        /  ___      __  __        __         |" << endl;
-    cout << "|        \\  /\\  /  |__  |   |   /  \\ |\\/| |_          |" << endl;
-    cout << "|         \\/  \\/   |___ |__ |__ \\__/ |  | |__         |" << endl;
-    cout << "|                                                     |" << endl;
-    cout << "|              _|__     ____   __       _|__          |" << endl;
-    cout << "|             |_|_        |   /  \\     |_|_           |" << endl;
-    cout << "|             __|_|       |   \\__/     __|_|          |" << endl;
-    cout << "|               |                        |            |" << endl;
-    cout << "|            ____                                     |" << endl;
-    cout << "|           |    \\  __  __          __                |" << endl;
-    cout << "|           |      |__||__  | |\\ | /  \\               |" << endl;
-    cout << "|           |____/ |  | __| | | \\| \\__/               |" << endl;
-    cout << "|                                                     |" << endl;
-    cout << "-------------------------------------------------------" << endl;
-    cout << "Welcome " << '"' << name << '"' << endl
+    Sleep(150);cout << "------------------------------------------------------- " << endl;
+    Sleep(150);cout << "|                                                     |" << endl;
+    Sleep(150);cout << "|       \\        /  ___      __  __        __         |" << endl;
+    Sleep(150);cout << "|        \\  /\\  /  |__  |   |   /  \\ |\\/| |_          |" << endl;
+    Sleep(150);cout << "|         \\/  \\/   |___ |__ |__ \\__/ |  | |__         |" << endl;
+    Sleep(150);cout << "|                                                     |" << endl;
+    Sleep(150);cout << "|              _|__     ____   __       _|__          |" << endl;
+    Sleep(150);cout << "|             |_|_        |   /  \\     |_|_           |" << endl;
+    Sleep(150);cout << "|             __|_|       |   \\__/     __|_|          |" << endl;
+    Sleep(150);cout << "|               |                        |            |" << endl;
+    Sleep(150);cout << "|            ____                                     |" << endl;
+    Sleep(150);cout << "|           |    \\  __  __          __                |" << endl;
+    Sleep(150);cout << "|           |      |__||__  | |\\ | /  \\               |" << endl;
+    Sleep(150);cout << "|           |____/ |  | __| | | \\| \\__/               |" << endl;
+    Sleep(150);cout << "|                                                     |" << endl;
+    Sleep(150);cout << "-------------------------------------------------------" << endl;
+    Sleep(300);cout << "Welcome " << '"' << name << '"' << endl
          << endl;
-    cout << "1. Play Game" << endl
+    Sleep(300);cout << "1. Play Game" << endl
          << endl;
-    cout << "2. Manage Funds" << endl
+    Sleep(300);cout << "2. Manage Funds" << endl
          << endl;
-    cout << "3. How To Play" << endl
+    Sleep(300);cout << "3. How To Play" << endl
          << endl;
-    cout << "4. Credits" << endl
+    Sleep(300);cout << "4. Credits" << endl
          << endl;
-    cout << "5. Exit" << endl
+    Sleep(300);cout << "5. Exit" << endl
          << endl;
-    cout << "<CHOOSE AN OPTION BY ENTERING A VALID NUMBER>\n-------------------------------------------------------" << endl
+    Sleep(300);cout << "<CHOOSE AN OPTION BY ENTERING A VALID NUMBER>\n-------------------------------------------------------" << endl
          << endl;
 
     while (1)

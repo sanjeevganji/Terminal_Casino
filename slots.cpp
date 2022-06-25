@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-
+#include <windows.h>
 #include <stdlib.h>
 #include <ctime>
 using namespace std;
@@ -7,22 +7,22 @@ using namespace std;
 int print(int n){
     switch(n){
         case 1:
-        cout<<endl<<"_____________\n|   _____   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |___|   |\n|___________|\n";
+        cout<<endl<<"_____________\n";Sleep(200);cout<<"|   _____   |\n";Sleep(200);cout<<"|   |   |   |\n";Sleep(200);cout<<"|   |   |   |\n";Sleep(200);cout<<"|   |   |   |\n";Sleep(200);cout<<"|   |___|   |\n";Sleep(200);cout<<"|___________|\n";Sleep(200);cout<<"";
         break;
         case 2:
-        cout<<endl<<"______________\n|   ______   |\n|   |_____   |\n|   _____|   |\n|   |_____   |\n|   _____|   |\n|____________|\n";
+        cout<<endl<<"______________\n";Sleep(200);cout<<"|   ______   |\n";Sleep(200);cout<<"|   |_____   |\n";Sleep(200);cout<<"|   _____|   |\n";Sleep(200);cout<<"|   |_____   |\n";Sleep(200);cout<<"|   _____|   |\n";Sleep(200);cout<<"|____________|\n";Sleep(200);cout<<"";
 
         break;
         case 3:
-        cout<<endl<<"_____________\n|    _   _  |\n|   | | | | |\n|   | | | | |\n| | | | |   |\n| |_| |_|   |\n|___________|\n";
+        cout<<endl<<"_____________\n";Sleep(200);cout<<"|    _   _  |\n";Sleep(200);cout<<"|   | | | | |\n";Sleep(200);cout<<"|   | | | | |\n";Sleep(200);cout<<"| | | | |   |\n";Sleep(200);cout<<"| |_| |_|   |\n";Sleep(200);cout<<"|___________|\n";Sleep(200);cout<<"";
 
         break;
         case 4:
-        cout<<endl<<"_____________\n|           |\n|  \\    /   |\n|   \\__/    |\n|   /  \\    |\n|  /    \\   |\n|___________|\n";
+        cout<<endl<<"_____________\n";Sleep(200);cout<<"|           |\n";Sleep(200);cout<<"|  \\    /   |\n";Sleep(200);cout<<"|   \\__/    |\n";Sleep(200);cout<<"|   /  \\    |\n";Sleep(200);cout<<"|  /    \\   |\n";Sleep(200);cout<<"|___________|\n";Sleep(200);cout<<"";
 
         break;
         case 5:
-        cout<<endl<<"_____________\n|           |\n|  /  ||  \\ |\n|  \\__||__/ |\n|     ||    |\n|     ||    |\n|___________|\n";
+        cout<<endl<<"_____________\n";Sleep(200);cout<<"|           |\n";Sleep(200);cout<<"|  /  ||  \\ |\n";Sleep(200);cout<<"|  \\__||__/ |\n";Sleep(200);cout<<"|     ||    |\n";Sleep(200);cout<<"|     ||    |\n";Sleep(200);cout<<"|___________|\n";Sleep(200);cout<<"";
 
         break;
     }
@@ -54,7 +54,9 @@ int slots(int bal, int x)
 
     
   print(left);
+  Sleep(500);
   print(mid);
+  Sleep(500);
   print(right);
   
  
@@ -63,7 +65,7 @@ int slots(int bal, int x)
 
     if(left==right&&left==mid){
         cout<<endl<<"!!!YOU HAVE WON THE JACKPOT!!!"<<endl;
-        bal+=1000;
+        bal+=3000;
     }else{
         cout<<endl<<"SORRY, DIDNT MATCH.........."<<endl;
     }
