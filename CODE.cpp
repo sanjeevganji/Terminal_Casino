@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <string>
+#include "slots.h"
 #include <ctime>
 using namespace std;
 void Play_game(int &funds, string name);
@@ -90,6 +91,8 @@ int Manage_Funds(int &funds, string name)
         }
     }
 }
+
+
 void Home(int &funds, string name)
 {
 
