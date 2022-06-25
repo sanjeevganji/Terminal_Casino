@@ -121,13 +121,14 @@ void Home(int &funds, string name)
          << endl;
     cout << "5. Exit" << endl
          << endl;
-    cout << "<CHOOSE AN OPTION BY ENTERING A VALID NUMBER>\n-------------------------------------------------------\n\n-------------------------------------------------------" << endl
+    cout << "<CHOOSE AN OPTION BY ENTERING A VALID NUMBER>\n-------------------------------------------------------" << endl
          << endl;
 
     while (1)
     {
 
         cin >> flow;
+        cout<<"\n-------------------------------------------------------\n";
         switch (flow)
         {
         case 1:
