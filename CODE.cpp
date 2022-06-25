@@ -72,6 +72,7 @@ int Manage_Funds(int &funds, string name)
     while (1)
     {
         cin >> flow;
+        cout<<"\n-------------------------------------------------------\n";
         switch (flow)
         {
         case 1:
