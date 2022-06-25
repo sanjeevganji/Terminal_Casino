@@ -33,14 +33,14 @@ void Play_Game(int &funds, string name)
          << endl;
     cout << "4. go back to main menu" << endl
          << endl;
-
+    Slots s(funds);
     while (1)
     {
         cin >> flow;
         switch (flow)
         {
         case 1:
-
+            s.main();
             break;
         case 2:
 
@@ -73,7 +73,7 @@ int Manage_Funds(int &funds, string name)
     while (1)
     {
         cin >> flow;
-        cout<<"\n-------------------------------------------------------\n";
+        cout << "\n-------------------------------------------------------\n";
         switch (flow)
         {
         case 1:
@@ -91,7 +91,6 @@ int Manage_Funds(int &funds, string name)
         }
     }
 }
-
 
 void Home(int &funds, string name)
 {
@@ -132,7 +131,7 @@ void Home(int &funds, string name)
     {
 
         cin >> flow;
-        cout<<"\n-------------------------------------------------------\n";
+        cout << "\n-------------------------------------------------------\n";
         switch (flow)
         {
         case 1:
@@ -149,13 +148,11 @@ void Home(int &funds, string name)
             break;
         case 5:
             return;
-            
 
         default:
             cout << "!!!PLEASE ENTYER A VALID INPUT!!!" << endl
                  << endl;
             continue;
-            
         }
     }
 }

@@ -8,8 +8,15 @@ using namespace std;
 
 class Slots
 {
+private:
+    int bal;
+
 public:
-    int print(int n)
+    Slots(int &funds)
+    {
+        bal = funds;
+    }
+    void print(int n)
     {
         switch (n)
         {
@@ -40,17 +47,17 @@ public:
         }
     }
 
-    int slots(int bal, int x)
+    int slots(int funds, int x)
     {
-        if (bal < 100)
+        if (funds < 100)
         {
             cout << "NOT ENOUGH BALANCE!";
-            return bal;
+            return funds;
             x = 0;
         }
         else
         {
-            bal -= 100;
+            funds -= 100;
 
             int left, mid, right;
             cout << endl
@@ -77,7 +84,7 @@ public:
             {
                 cout << endl
                      << "!!!YOU HAVE WON THE JACKPOT!!!" << endl;
-                bal += 3000;
+                funds += 3000;
             }
             else
             {
@@ -86,7 +93,7 @@ public:
             }
             cout << "-------------------------------------------------------";
 
-            return bal;
+            return funds;
         }
     }
 
@@ -94,11 +101,6 @@ public:
     {
 
         int x = 1;
-
-        int bal;
-        cout << "input your balance: $";
-
-        cin >> bal;
 
         while (x != 0)
         {
@@ -121,6 +123,6 @@ public:
 
         return 0;
     }
-}
+};
 
 #endif // end SLOTS_H
