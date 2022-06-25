@@ -27,7 +27,7 @@ YOUR AVAILABLE BALANCE: $"  "
 
 1. PLAY GAME
 
-2. ADD FUNDS
+2. MANAGE FUNDS
 
 3. HOW TO PLAY
 
@@ -39,28 +39,73 @@ YOUR AVAILABLE BALANCE: $"  "
 -------------------------------------------------------
 
 -------------------------------------------------------
+you have chosen 1. PLAY GAME
+
+CHOOSE A GAME TO PLAY:
+
+1. SLOTS
+
+2. GUESSING GAME
+
+3. TICK TOCK CLOCK
+
+4. go back to main menu
+
 <CHOOSE AN OPTION BY ENTERING A VALID NUMBER>
 -------------------------------------------------------
 
 -------------------------------------------------------
+you have chosen 2. MANAGE FUNDS
+
+YOUR AVAILABLE BALANCE: $"  "
+
+1. ADD FUNDS
+
+2. WITHDRAW FUNDS
+
+3. go back to main menu
+
 <CHOOSE AN OPTION BY ENTERING A VALID NUMBER>
 -------------------------------------------------------
 
 -------------------------------------------------------
+you have chosen 3. HOW TO PLAY
+
+
 <CHOOSE AN OPTION BY ENTERING A VALID NUMBER>
 -------------------------------------------------------
 
 -------------------------------------------------------
+you have chosen 4. CREDITS
+
+
 <CHOOSE AN OPTION BY ENTERING A VALID NUMBER>
 -------------------------------------------------------
 
 -------------------------------------------------------
+you have chosen
 <CHOOSE AN OPTION BY ENTERING A VALID NUMBER>
 -------------------------------------------------------
 
 -------------------------------------------------------
+you have chosen
 <CHOOSE AN OPTION BY ENTERING A VALID NUMBER>
 -------------------------------------------------------
+
+-------------------------------------------------------
+you have chosen 5. EXIT
+
+THANK YOU FOR PLAYING "     " !
+
+HOPE YOU HAD FUN.
+
+YOU EXITED WITH $" " BALANCE.
+
+-------------------------------------------------------
+-------------------------------------------------------
+
+
+
 
 
 
