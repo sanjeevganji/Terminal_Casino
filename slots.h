@@ -3,7 +3,7 @@
 
 #include <bits/stdc++.h>
 #include <stdlib.h>
-#include <ctime>
+
 using namespace std;
 
 class Slots
