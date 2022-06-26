@@ -1,9 +1,10 @@
 #include <bits/stdc++.h>
 //#include <climits>
-//#include <cmath>
-#include <string.h>
-#include <string>
-#include <windows.h>
+// //#include <cmath>
+// #include <string.h>
+// #include <string>
+// #include <windows.h>
+#include <stdlib.h>
 
 //#define endl '\n'
 //#define PB push_back 
@@ -21,15 +22,12 @@ using namespace std;
 int main(){
 
 
-
-string s = "123456789";
-for (int i = 0; i < 10; i++)
-{
-    cout<<s[i];
-    Sleep(250);
+srand((unsigned)time(0));
+int num= 1+ (rand()%38);
+if(num==37||num==38){
+    num=0;
 }
-
-
+cout<<num;
 
 return 0;
 }
